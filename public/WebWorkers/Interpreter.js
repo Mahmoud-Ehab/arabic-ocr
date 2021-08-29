@@ -53,8 +53,7 @@ class ArabicLettersClassifier {
             // Get the distance between x and the element
             let distance = 0;
             for (let k = 0; k < x.length; k++)
-                distance += (element[k] - x[k]);
-            distance = Math.pow(distance, 2);
+                distance += Math.abs(element[k] - x[k]);
 
             // If it small enough specify i as the predicted char index
             if (distance < smallestDistance) {
