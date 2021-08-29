@@ -265,9 +265,9 @@ const AnalyzingSection = (props) => {
                         Here's where the action happens: upload your text image, 
                         then click the "Analyze" button at the bottom to begin 
                         breaking it down into letters, so we can start the learning phase.
-                        But before that, if the image isn't already black-and-white, you must 
-                        convert it, you might reduce the resolution of the image, and you may 
-                        wish to put the algorithm to the test first.
+                        But before that, if the image isn't already black-and-white, you shall 
+                        convert it. You might also reduce the resolution of the image if needed, 
+                        and lastly you may wish to put the algorithm to the test first.
                     </p>
                     
                     <h1 className="text-2xl font-bold my-1">
@@ -275,7 +275,7 @@ const AnalyzingSection = (props) => {
                     </h1>
                     <p className="text-justify mb-4">
                         Once you click the "Optimize" button at the bottom, the image 
-                        will be converted to black-and-white, that will eliminate pixelization.
+                        will be converted into black-and-white, that will eliminate pixelization.
                         <span className="font-bold"> Keep in mind that the text must be provided in black. </span>
                     </p>
 
@@ -284,8 +284,9 @@ const AnalyzingSection = (props) => {
                     </h1>
                     <p className="text-justify mb-4">
                     The image's resolution is automatically lowered after it is uploaded,
-                    in order to obtain a greater level of performance. Every time you press the button,
-                    the resolution will be reduced by a fifth which is not usually required as the 
+                    in order to obtain a greater level of performance. However, you can 
+                    reduce the resolution even more by pressing the 'Low Resolution' button,
+                    it'll reduce the resolution by a fifth which is not usually required as the 
                     automatic execution do well.
                     </p>
 

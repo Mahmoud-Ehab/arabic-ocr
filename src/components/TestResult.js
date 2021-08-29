@@ -57,16 +57,16 @@ const TestResult = (props) => {
 
             <p className="w-3/4 sm:w-1/2 text-center my-6 p-3
             bg-black bg-opacity-75 rounded">
-                The red horizontal row is the DecisionRow, you have 
-                located it with the yaxis value. The vertical lines should be 
-                positioned in a way that proparly decompise the word into letters.
-                If It's not, then change yaxis value and give another shot.
+                The red horizontal row is the 'DecisionRow', it has been located 
+                automatically in a way that makes it feasible to go through the word 
+                and extract letters from it whenever the row hits a black pixel. 
+                The vertical lines should be positioned in a way that proparly 
+                decompise the word into letters.
             </p>
-            
 
             <p className="w-3/4 sm:w-1/2 text-center p-3
             bg-black bg-opacity-75 rounded">
-                For Best Results: Presume that Arabic has 756 letters instead of 28.
+                For best results: You may presume that Arabic has 756 letters instead of 28.
             </p>
         </div>
     );
