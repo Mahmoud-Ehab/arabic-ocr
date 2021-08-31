@@ -189,7 +189,7 @@ class pa{
         // Determine split_columns List using the decisionRow
         let split_columns = [];
 
-        for (let c = 0; c < width; c++) {
+        for (let c = 0; c < width * 0.9; c++) {
             // The cur pixel must be black
             if (frame[decisionRow][c][0] > 250) continue;
 

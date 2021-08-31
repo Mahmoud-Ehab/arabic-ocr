@@ -32,8 +32,8 @@ class ArabicLettersClassifier {
                 botDensity /= width * (height/2);
 
                 // Covert densities to percentage
-                topDensity = parseInt(topDensity*100);
-                botDensity = parseInt(botDensity*100);
+                topDensity = parseInt(topDensity*10000);
+                botDensity = parseInt(botDensity*10000);
 
                 convertedData.push([topDensity, botDensity]);
             }
